@@ -27,6 +27,7 @@ h2{
     text-align: center;
     /*width:70%;*/
     margin:auto;
+    
 }
 #todoInput{
     width:60%;
@@ -37,6 +38,16 @@ h2{
     background-color:#ddd9d6;
     font-size:1.5em;
     padding:10px;
+}
+.taskbtn{
+    border:none;
+    outline:none;
+    background-color:#ddd9d6;
+    border-radius:3px;
+    font-size:1.3em;
+    padding:8px 15px;
+    margin:20px;
+    color:#fc6b6c;
 }
 .list{
     width:60%;
@@ -76,7 +87,7 @@ li span{
 }
 @media (max-width:700px){
     #todoInput{
-        width:90%;
+        width:70%;
         font-size:0.9em;
     }
     .list{

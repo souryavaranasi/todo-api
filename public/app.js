@@ -13,6 +13,10 @@ $(document).ready(function(){
         createTodo();
     }
     });
+    $("#add-task").on("click",function(event){
+        console.log(event);
+        createTodo();
+    });
     
     $(".list").on("click",'span',function(e){
         e.stopPropagation();
